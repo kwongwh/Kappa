@@ -1,16 +1,14 @@
 ---
-title: What the Package Does (Title Case)
+title: Perform unweighted and squared Kappa test for 2 raters
 name: Kappa
-version: 0.0.0
+version: 1.0.0
 jms: '1.0'
 authors:
-  - Who wrote it
+  - Patrick Kwong
 maintainer: The package maintainer <yourself@somewhere.net>
-date: '1970-01-01'
+date: '2020-05-03'
 type: R
-description: >-
-  More about what it does (maybe more than one line) Use four spaces when
-  indenting paragraphs within the Description.
+description: Perform unweighted and squared Kappa test for 2 raters
 analyses:
   - title: Kappa
     name: kappa

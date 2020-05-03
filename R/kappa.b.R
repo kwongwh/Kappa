@@ -38,9 +38,7 @@ kappaClass <- if (requireNamespace('jmvcore')) R6::R6Class(
                 lower_CI=results$confid[1,1],
                 p = irr.kappa$p.value
                 ))
-            # `self$data` contains the data
-            # `self$options` contains the options
-            # `self$results` contains the results object (to populate)
+
 
         })
 )
