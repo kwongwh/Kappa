@@ -1,0 +1,23 @@
+---
+name:  kappa
+title: Kappa
+menuGroup: Kappa
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+
+    - name: dep
+      title: Dependent Variable
+      type: Variables
+
+    - name: weights
+      title: weights
+      type: List
+      options:
+        - unweighted
+        - squared
+      default: unweighted
+...

@@ -1,0 +1,12 @@
+Package: Kappa
+Type: Package
+Title: Kappa statistics
+Version: 1.0.0
+Author: Patrick Kwong
+Maintainer: Patrick Kwong <whkwong@ntu.edu.sg>
+Description: Perform unweighted and squared Kappa test for 2 raters
+License: GPL3
+Encoding: UTF-8
+LazyData: true
+Imports: jmvcore (>= 0.8.5), R6 , psych, irr
+Built: R 3.6.1; ; 2020-05-02 13:12:38 UTC; windows

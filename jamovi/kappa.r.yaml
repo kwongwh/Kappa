@@ -1,0 +1,30 @@
+---
+name:  kappa
+title: Kappa
+jrs:   '1.1'
+
+items:
+    - name:  text
+      title: Kappa
+      type:  Preformatted
+      
+    - name:  ka
+      title: Cohen's Kappa for 2 Raters
+      type: Table
+      rows:  1
+      columns:
+        - name: weights
+          type: text
+        - name: kappa
+          type: number
+        - name: upper_CI
+          type: number
+        - name: lower_CI
+          type: number
+        - name: p
+          type: number
+          format: zto,pvalue
+      
+
+
+...

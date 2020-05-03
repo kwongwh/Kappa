@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+import(psych)
+import(irr)
+export(kappaClass)
+export(kappaOptions)
